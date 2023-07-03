@@ -112,7 +112,8 @@ function App() {
               }
 
               .card{
-            text-align: justify;
+                margin:auto;
+            // text-align: justify;
             place-items: center;
             
               }
