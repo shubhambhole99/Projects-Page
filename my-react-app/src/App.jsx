@@ -112,8 +112,7 @@ function App() {
               }
 
               .card{
-                margin:auto;
-            // text-align: justify;
+            margin:auto;
             place-items: center;
             
               }
@@ -336,17 +335,8 @@ function App() {
             Navigation,
           ]}
           className="swiper_container"
-          initialSlide={3}
+          initialSlide={2}
         >
-          <SwiperSlide>
-            <img src={imaget} alt="slide_image" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={imaget} alt="slide_image" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={imaget} alt="slide_image" />
-          </SwiperSlide>
           <SwiperSlide>
             <img src={imaget} alt="slide_image" />
           </SwiperSlide>
